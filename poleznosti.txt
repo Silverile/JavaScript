@@ -1,0 +1,11 @@
+Data types - JavaScript
+
+Block/Inline block/div/span/
+
+Learn more about flex - IMPORTANT!
+
+Test everything/After look on flex - w3school
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - пройти
+
+Привезти бисептол Войте!!
+
