@@ -187,3 +187,8 @@
 IMPORTANT NOTE! Strong need to look one more time at sections 119/120/121
 
 */
+// BMI Calculator
+// function bmiCalculator(weight, height) {
+//     var bmi = weight / (height * height);
+//     return bmi;
+// }s
