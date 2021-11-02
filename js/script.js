@@ -192,3 +192,139 @@ IMPORTANT NOTE! Strong need to look one more time at sections 119/120/121
 //     var bmi = weight / (height * height);
 //     return bmi;
 // }s
+// ****************************************************************************************************************************************************************************************
+//Secton 10: Intermediate Javascript
+
+//-----------------------------------125. Random Number Generation in JS------------------------//
+// Sudo random number generator. Randomly picks number in range between 1 - 6
+// var n = Math.random();
+// n = n * 6;
+// n = Math.floor(n) + 1;
+// console.log(n);
+//---------------------------------------------Love calculator-----------------------------------
+// prompt("What is your name?");
+// prompt("What is their name?");
+// var loveScore = Math.random() * 100;
+// loveScore = Math.floor(loveScore) + 1;                                       
+// alert("Your love score is: " + loveScore + " %");
+
+//-----------------------------------126. Control statements: Using If-Else Conditionals & Logic------------------------//
+// prompt("What is your name?");
+// prompt("What is their name?");
+// var loveScore = Math.random() * 100;
+// loveScore = Math.floor(loveScore) + 1; //1-100
+// // === stands for equality
+// if (loveScore > 70) {
+//     alert("Your love score is: " + loveScore + "%" + " Love between you is enormous");
+// } else {
+//    alert("Your love score is: " + loveScore + " %"); 
+// }
+
+//-----------------------------------127. Comparators and Equality------------------------//
+// === Is equal to
+// !== Is not equal to
+// > Is greater than
+// < Is lesser than
+// >= Is greater or equal to
+// <= Is lesser or equal to
+
+//-----------------------------------128. Combining comparators------------------------//
+// && means AND
+// || means OR
+// ! means NOT
+// prompt("What is your name?");
+// prompt("What is their name?");
+// var loveScore = Math.random() * 100;
+// loveScore = Math.floor(loveScore) + 1; //1-100
+// // === stands for equality
+// if (loveScore > 70) {
+//     alert("Your love score is: " + loveScore + "%" + " Love between you is enormous");
+// } 
+// if(loveScore > 30 && loveScore <= 70){
+//     alert("Your love score is: " + loveScore + "%" + " Average but not bad");
+
+// }
+// if(loveScore <= 30){
+//     alert("Your love score is: " + loveScore + "%" + " Well, you are fucked");
+// }
+
+//-----------------------------------129. Leap year code challenge------------------------//
+// function isLeap(year) {
+    
+//     /**************Don't change the code above****************/    
+        
+//         //Write your code here.    
+    
+//         if (year % 4 === 0 || (year % 100 === 0 && year % 400 === 0)) {
+
+//             console.log("Leap year.");
+    
+//         }
+    
+//         else {
+    
+//             console.log("Not leap year.");
+    
+//         }
+        
+    
+//     /**************Don't change the code below****************/    
+    
+//     }
+
+//-----------------------------------131. Collections: Working with JS Arrays------------------------//
+// var eggs = ['white', 'brown', 'red', 'green'];
+// var myEgg = eggs[1]; // It means that we pick 'brown' from array because counting always starts from 0
+
+// var guestList = ['Angela', 'Jack', 'Paul', 'James', 'Laura', 'Jason'];
+
+// // How to retrieve items from array ==>
+// console.log(guestList[0]);
+
+// console.log(guestList.includes(Jack));
+
+// Challenge: 
+// To write a code which uses prompt asking name of the guest. 
+// Checking if it is existing in array. If yes alert with greeting. Else alert that guest is not in guest list.
+
+// var guestList = ['Angela', 'Jack', 'Paul', 'James', 'Laura', 'Jason'];
+
+// var guestName = prompt("What is your name?");
+
+// //Returns boolean is guestName is in array or not
+// if(guestList.includes(guestName)){
+//     alert("Greetings " + guestName + " !");
+// } else {
+//     alert("Sorry, you are not in the guest list. Try another time")
+// }
+
+//-----------------------------------132. Adding Elements and Intermediate Array Techniques------------------------//
+// FizzBuzz: Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
+// For numbers which are multiples of both three and five print "FizzBuzz".
+// For example we have array of numbers from 1 - 100 and it shoul look like 1 2 Fizz 4 Buzz
+// var output = [];
+// var count = 1;
+// function fizzBuzz(){
+//     if(count % 3 === 0){
+//         output.push("Fizz");
+    
+//     } else if(count % 5 === 0){
+//         output.push("Buzz");
+//     }
+    
+//     else {
+//         output.push(count);
+//     }
+    
+    
+//     count++;
+    
+
+//         console.log(output);
+
+
+// }
+
+
+
+
