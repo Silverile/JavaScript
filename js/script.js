@@ -301,30 +301,37 @@ IMPORTANT NOTE! Strong need to look one more time at sections 119/120/121
 //-----------------------------------132. Adding Elements and Intermediate Array Techniques------------------------//
 // FizzBuzz: Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
 // For numbers which are multiples of both three and five print "FizzBuzz".
-// For example we have array of numbers from 1 - 100 and it shoul look like 1 2 Fizz 4 Buzz
+// For example we have array of numbers from 1 - 100 and it should look like 1 2 Fizz 4 Buzz
 // var output = [];
 // var count = 1;
-// function fizzBuzz(){
-//     if(count % 3 === 0){
-//         output.push("Fizz");
+function fizzBuzz(){
+    if(count % 3 === 0 && count % 5 === 0){
+        output.push("FizzBuzz")
+    }
+    else if(count % 3 === 0){
+        output.push("Fizz");
     
-//     } else if(count % 5 === 0){
-//         output.push("Buzz");
-//     }
+    } else if(count % 5 === 0){
+        output.push("Buzz");
+    }
     
-//     else {
-//         output.push(count);
-//     }
+    else {
+        output.push(count);
+    }
     
     
-//     count++;
+    count++;
     
 
-//         console.log(output);
+        console.log(output);
 
 
-// }
+}
 
+var numberOfPeople = names.length;
+var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+var randomPerson = names[randomPersonPosition];
 
+return randomPerson + " is going to buy lunch today!";
 
 
